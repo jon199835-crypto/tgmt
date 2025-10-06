@@ -7,7 +7,7 @@ app.use(express.json());
 // форвард POST в Google Apps Script
 app.post("/", async (req, res) => {
   try {
-    const resp = await fetch("https://script.google.com/macros/s/AKfycbxm5rOt-_0Qm2NG05pu-I_CqH-6z24fQ3EPFlC8lYpCpb_Tp1zPmiZf97ldVLlSf3MC/exec", {
+    const resp = await fetch("https://script.google.com/macros/s/AKfycbyyco6yJLK2Ea30hff-5VqRg1eH1V7BVuZaeMno3_2fDdCwWlQhv66gNqbEkxqq4T-A/exec", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(req.body)
