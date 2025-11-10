@@ -5,7 +5,7 @@ const app = express();
 app.use(express.json());
 
 // === CONFIG ===
-const GAS_URL = "https://script.google.com/macros/s/AKfycbz_uygiwNOpuHjoC2Jy9QilWOJSQvh1ywxzbkOjL5H7zEQP6Pvus_Yw_ipyszex2BZyPw/exec";
+const GAS_URL = "https://script.google.com/macros/s/AKfycbyDlob9r6fwpUnQw12YL5mhTPbrEjyOfSYz-EHmaa6H_9pZ7VRdF5UNVkQpgeLzOziOXA/exec";
 
 // === ПРОКСИ ДЛЯ TELEGRAM ===
 app.post("/", (req, res) => {
